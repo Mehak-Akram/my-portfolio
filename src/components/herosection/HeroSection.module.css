@@ -1,0 +1,70 @@
+.hero{
+    width: 100%;
+    background-color: var(--background-black);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero h1{
+    padding-top: 7.4688rem;
+    font-size: 1.8987rem;
+    line-height: 3rem;
+}
+
+.hero span {
+    background-image: linear-gradient(to right, #512f5c, #ed9e6f, #b66570);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.hero p {
+    margin-top: 20px;
+    margin-bottom: 2.313rem;
+}
+
+.socialIcons{
+    margin: auto;
+    padding: 11px 27px;
+    display: inline-flex;
+    gap: 3.125rem;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, #512f5c, #ed9e6f, #b66570); /* Orange to yellow gradient */
+    border-radius: 1.625rem;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    color: var(--background-black);
+}
+
+.bottomDiv{
+    width: 100%;
+    padding: .5rem 9.0625rem;
+    background-image: linear-gradient(to right, #512f5c,  #b66570); /* Orange to yellow gradient */
+    display: flex;
+    gap: 9.0625rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+    .bottomDiv{
+        padding: 8px 29px;
+        gap: 29px;
+    }
+}
+
+@media(max-width: 430px) and (min-width: 360px) {
+    .socialIcons{
+        padding: 4px 20px;
+        gap: 30px;
+    }
+
+    .bottomDiv{
+        padding: 10px 20px;
+        gap: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

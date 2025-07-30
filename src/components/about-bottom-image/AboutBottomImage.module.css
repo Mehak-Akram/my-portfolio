@@ -1,0 +1,26 @@
+.aboutBottomImage{
+    width: 100%;
+    background-image: linear-gradient(to right, #512f5c,  #b66570); /* Orange to yellow gradient */
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .aboutBottomImage {
+        padding: 20px 0px;
+        gap: 4rem;
+    }
+}
+
+@media (max-width: 430px) and (min-width: 360px) {
+    .aboutBottomImage {
+        padding: 2.625rem 0rem;
+        gap: 3.125rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+}

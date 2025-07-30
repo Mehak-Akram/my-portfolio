@@ -1,0 +1,33 @@
+.card{
+    padding: 24px 16px;
+    background-image: linear-gradient(to right, #512f5c,  #bb636e); /* Orange to yellow gradient */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+    text-align: start;
+
+    &:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 4px 20px #512f5c;
+    }
+}
+
+.cardIcon{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 28px;
+    color: #b65762;
+}
+
+.card h1{
+    font-size: 22.5px;
+    line-height: 32px;
+    margin-bottom: 15.5px;
+}
+
+.card p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 0px;
+}

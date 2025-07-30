@@ -1,0 +1,14 @@
+.button {
+    padding: .6563rem 3rem;
+    background-image: linear-gradient(to right, #512f5c, #ed9e6f, #b66570); /* Orange to yellow gradient */
+    border-radius: 8px;
+    display: inline-block;
+    margin: auto;
+    color: black;
+    font-weight: bolder;
+
+    &:hover {
+    background-image: linear-gradient(to right,#b66570 #0c111f, #ed9e6f,); /* Orange to yellow gradient */
+    color: white;
+    }
+}

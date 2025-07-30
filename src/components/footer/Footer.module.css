@@ -1,0 +1,14 @@
+.footer{
+    width: 100%;
+    background-image: linear-gradient(to right, #512f5c, #ed9e6f, #b66570); /* Orange to yellow gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0px;
+}
+
+.footer h1{
+    font-size: 20px;
+    line-height: 32px;
+    color: black;
+}

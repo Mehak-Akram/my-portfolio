@@ -1,0 +1,137 @@
+.contactUs{
+    width: 100%;
+    padding: 154px 147px 160px 147px;
+    text-align: center;
+    background-color: var(--background-black);
+}
+
+.contactUs h1{
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 18px;
+}
+
+.contactUs span{
+    color: #b66570;
+}
+
+.contactUs p{
+    font-size: 16.73px;
+    line-height: 28px;
+    margin-bottom: 6rem;
+}
+
+.contactUsBottomDiv{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.contactLeftDiv{
+    width: 300px;
+    display: flex;
+    gap: 48px;
+    flex-direction: column;
+}
+
+.contactLeftDivText{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+
+.contactLeftDivText :nth-child(3){
+    color: var(--logo-color);
+}
+
+.contactLeftDivContainer{
+    display: flex;
+    gap: 16px;
+}
+
+.contactRightDiv{
+    width: 650px;
+}
+
+.contactRightDiv form{
+    width: 100%;
+    display: flex;
+    gap: 35px;
+    flex-direction: column;
+}
+
+.topInputDiv{
+    width: 100%;
+    display: flex;
+    gap: 8px;
+}
+
+.topInputDiv input{
+    width: 320px;
+}
+
+.inputDetails{
+    padding: 15px 0px 15px 12px;
+    font-size: 15px;
+    background-color: var(--background-black);
+    border: 1px solid var(--logo-color);
+    border-radius: 8px;
+}
+
+.inputBtn{
+    background-image: linear-gradient(to right, #512f5c, #ed9e6f, #b66570); 
+    width: 178px;
+    height: 52px;
+    border-radius: 8px;
+    color: black;
+    font-weight: bolder;
+
+    &:hover{
+        cursor: pointer;
+        color: white;
+    }
+}
+
+@media (max-width: 768px) {
+    .contactUs {
+        padding: 160px 32px 160px 32px;
+    }
+
+    .contactUs h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .contactUs p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .contactUsBottomDiv {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactLeftDiv, .contactRightDiv {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .topInputDiv input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 430px) and (min-width: 360px){
+    .contactRightDiv{
+        width: 100%;
+    }
+
+    .topInputDiv{
+        flex-direction: column;
+        gap: 25px;
+    }
+}

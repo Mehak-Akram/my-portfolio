@@ -1,0 +1,63 @@
+.about{
+    width: 100%;
+    background-color: var(--background-black);
+    padding: 10rem 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutLeftDiv{
+    width: 40.70%;
+}
+
+.aboutLeftDiv h1{
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 8px;
+}
+
+.aboutLeftDiv p{
+    font-size: 30px;
+    line-height: 36px;
+    color: var(--logo-color);
+}
+
+.detailText{
+    font-size: 16.88px;
+    line-height: 27px;
+    margin-top: 23.5px;
+    margin-bottom: 32.5px;
+}
+
+.aboutRightDiv{
+    margin-right: 190px;
+}
+
+@media (max-width: 768px) {
+    .about{
+        padding: 60px 40px 160px 40px;
+}
+    .aboutLeftDiv{
+        width: 45.182%;
+    }
+    .aboutRightDiv{
+        margin-right: 0px;
+    }
+    .img{
+        width: 350px;
+    }
+}
+
+@media (max-width: 430px) and (min-width: 360px){
+    .about{
+        padding: 10rem 0rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .aboutLeftDiv{
+        width: 90%;
+    }
+}
+
