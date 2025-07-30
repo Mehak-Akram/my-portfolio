@@ -31,7 +31,7 @@
     gap: 3.125rem;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(to right, #512f5c, #ed9e6f, #b66570); /* Orange to yellow gradient */
+    background-image: linear-gradient(to right, #512f5c, #ed9e6f, #b66570); 
     border-radius: 1.625rem;
     margin-top: 50px;
     margin-bottom: 70px;
@@ -41,7 +41,7 @@
 .bottomDiv{
     width: 100%;
     padding: .5rem 9.0625rem;
-    background-image: linear-gradient(to right, #512f5c,  #b66570); /* Orange to yellow gradient */
+    background-image: linear-gradient(to right, #512f5c,  #b66570); 
     display: flex;
     gap: 9.0625rem;
     justify-content: space-between;

@@ -1,6 +1,6 @@
 .footer{
     width: 100%;
-    background-image: linear-gradient(to right, #512f5c, #ed9e6f, #b66570); /* Orange to yellow gradient */
+    background-image: linear-gradient(to right, #512f5c, #ed9e6f, #b66570); 
     display: flex;
     justify-content: center;
     align-items: center;

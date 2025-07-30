@@ -23,12 +23,12 @@ function ServicesCard() {
   return (
     <>
       {servicesCardData.map((item, index) => {
-        const Icon = item.icon; // Get the icon component
+        const Icon = item.icon; 
         return (
           <div className={`${styles.card} ${inter.className}`} key={index} data-aos="fade-up"
      data-aos-duration="3000">
             <div className={styles.cardIcon}>
-              <Icon size={60} /> {/* Render the icon with a size */}
+              <Icon size={60} /> 
             </div>
             <h1>{item.title}</h1>
             <p>{item.description}</p>
