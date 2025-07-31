@@ -5,27 +5,15 @@ import { caveat, inter } from "@/font";
 import Button from "../button/Button";
 import Image from "next/image";
 import { Typewriter } from "react-simple-typewriter";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
-import { useEffect } from "react";
+
 
 function AboutSection() {
-  useEffect(() => {
-    AOS.init({
-      easing: "ease-out-back",
-      duration: 1200,
-      delay: 100,
-      mirror: true,
-      anchorPlacement: "bottom-bottom",
-      offset: 160,
-    });
-    AOS.refresh();
-  }, []);
+
   return (
     <>
       <section id="about" className={styles.about}>
-        <div className={styles.aboutLeftDiv} data-aos="zoom-in-up">
+        <div className={styles.aboutLeftDiv}>
           <h1 className={caveat.className}>Mehak Akram</h1>
           <p className={caveat.className}>
             {" "}
@@ -58,7 +46,6 @@ function AboutSection() {
             alt={"Profile Picture"}
             width={400}
             height={400}
-            data-aos="zoom-in-up"
             className={styles.img}
           ></Image>
         </div>

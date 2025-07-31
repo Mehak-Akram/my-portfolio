@@ -12,7 +12,7 @@ function ContactUs() {
         <div className={styles.contactUsBottomDiv}>
           <div className={styles.contactLeftDiv}>
 
-            <div className={styles.contactLeftDivContainer} data-aos="fade-right">
+            <div className={styles.contactLeftDivContainer} >
               <Link href={"https://github.com/Mehak-Akram"}><FaGithub size= {24} color={'var(--logo-color'}/></Link>
               <div className={styles.contactLeftDivText}>
                 <h6>Have a question</h6>
@@ -21,7 +21,7 @@ function ContactUs() {
               </div>
               
             </div>
-            <div className={styles.contactLeftDivContainer} data-aos="fade-right">
+            <div className={styles.contactLeftDivContainer} >
               <FaLocationDot size = {24} color={'var(--logo-color'}/>
               <div className={styles.contactLeftDivText}>
                 <h6>Current Location</h6>
@@ -31,8 +31,7 @@ function ContactUs() {
               
             </div>
           </div>
-          <div className={styles.contactRightDiv}data-aos="fade-up"
-     data-aos-duration="3000">
+          <div className={styles.contactRightDiv}>
             <form>
               <div className={styles.topInputDiv}>
                 <input type="text" placeholder='Your name' className={styles.inputDetails}/>
@@ -40,9 +39,7 @@ function ContactUs() {
               </div>
               <input type="text" placeholder='Subject'className={styles.inputDetails} style={{width : "100%"}}/>
               <textarea placeholder='Your message' className={styles.inputDetails} style={{height : "224px"}}></textarea>
-              <input type="submit" className={styles.inputBtn} value={"Send message"} data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine"/>
+              <input type="submit" className={styles.inputBtn} value={"Send message"} />
             </form>
           </div>
         </div>
