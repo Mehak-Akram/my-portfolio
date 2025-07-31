@@ -4,7 +4,7 @@ import styles from './PortfolioCard.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import {portfolioCards} from '@/constant/portfolioCard'
-import { caveat, inter } from '@/font'
+import { inter } from '@/font'
 import AOS from "aos";
 import "aos/dist/aos.css"
 
@@ -23,7 +23,7 @@ const PortfolioCard = () => {
       },[]);
   return (
     <>
-    {portfolioCards.map((item , index)=>{return(
+    {portfolioCards.map((item)=>{return(
           <div className={styles.card} key = {item.id} data-aos="flip-left">
        <Link href={item.href}> <div className={styles.cardImage}>
             {item.type == "image" ? (<Image
@@ -35,12 +35,9 @@ const PortfolioCard = () => {
                     /> ) : ( <video src={item.src} controls autoPlay loop muted ></video>)}
             </div></Link>
             
-        <div className={`${styles.cardTexth1} ${inter.className}`}>{item.title}</div>
-
-        
+        <div className={`${styles.cardTexth1} ${inter.className}`}>{item.title}</div>     
     </div>
-    )})}
-      
+    )})}    
     </>
   )
 }

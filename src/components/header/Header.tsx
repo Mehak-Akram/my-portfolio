@@ -4,7 +4,7 @@ import { caveat, inter } from "@/font";
 import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect , useState } from "react";
+import { useEffect} from "react";
 import { TiThMenu } from "react-icons/ti";
 import { CgCloseR } from "react-icons/cg";
 import React from "react";
