@@ -3,10 +3,9 @@ import React from 'react'
 import styles from './HeroSection.module.css'
 import { inter } from '@/font'
 import Button from '../button/Button'
-import { FaFacebookF, FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
 import Image from 'next/image'
-import {motion} from 'framer-motion'
 import { Typewriter } from 'react-simple-typewriter'
 import AOS from "aos";
 import "aos/dist/aos.css"
@@ -46,8 +45,8 @@ const HeroSection = () => {
 <Link href={"https://x.com/MehakAkram597"}><FaXTwitter size = {30}/></Link>
 <FaInstagram size = {30}/>
 <FaWhatsapp size = {30}/>
-<Link href={""}><FaLinkedin size = {30}/>
-</Link></div>
+<FaLinkedin size = {30}/>
+</div>
 <div className = {styles.bottomDiv}>
     <Image src= {"/behance.png"} alt = {"Behance-image"} width = {156} height = {156} data-aos="fade-right"></Image>
         <Image src= {"/dribble.png"} alt = {"dribble-image"} width = {156} height = {156} data-aos="fade-right"></Image>

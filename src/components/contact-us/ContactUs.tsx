@@ -2,7 +2,6 @@ import React from 'react'
 import styles from "./ContactUs.module.css"
 import { caveat, inter } from '@/font'
 import { FaGithub, FaLocationDot } from 'react-icons/fa6'
-import { MdEmail} from 'react-icons/md'
 import Link from 'next/link'
 
 function ContactUs() {
