@@ -49,7 +49,7 @@
     }
 }
 
-@media (max-width: 430px) and (min-width: 360px){
+@media (max-width: 430px) and (min-width: 320px){
     .about{
         padding: 10rem 0rem;
         display: flex;

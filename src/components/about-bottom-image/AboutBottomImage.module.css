@@ -15,7 +15,7 @@
     }
 }
 
-@media (max-width: 430px) and (min-width: 360px) {
+@media (max-width: 430px) and (min-width: 320px) {
     .aboutBottomImage {
         padding: 2.625rem 0rem;
         gap: 3.125rem;

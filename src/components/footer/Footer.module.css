@@ -8,7 +8,19 @@
 }
 
 .footer h1{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 32px;
     color: black;
+}
+
+@media (max-width: 430px) and (min-width: 320px) {
+    .footer{
+    display: flex;
+    justify-content: center;
+    }
+
+    .footer h1{
+        font-size: 16px;
+        line-height: 28px;
+    }
 }

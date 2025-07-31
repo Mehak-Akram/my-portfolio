@@ -14,12 +14,12 @@ function Services() {
         <p className={inter.className}>
           I provide a range of services to help businesses establish a strong
           online presence and achieve their digital goals. From web development
-          to SEO optimization, <br /> I ensure that each project is tailored to meet
-          the unique needs of my clients, delivering high-quality results that
-          drive success.
+          to SEO optimization, <br /> I ensure that each project is tailored to
+          meet the unique needs of my clients, delivering high-quality results
+          that drive success.
         </p>
         <div className={styles.serviceCardDiv}>
-       <ServicesCard/>
+          <ServicesCard />
         </div>
       </section>
     </>
