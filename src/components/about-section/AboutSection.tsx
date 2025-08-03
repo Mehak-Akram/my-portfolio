@@ -4,7 +4,6 @@ import styles from "./AboutSection.module.css";
 import { caveat, inter } from "@/font";
 import Button from "../button/Button";
 import Image from "next/image";
-import { Typewriter } from "react-simple-typewriter";
 
 
 
@@ -17,18 +16,7 @@ function AboutSection() {
           <h1 className={caveat.className}>Mehak Akram</h1>
           <p className={caveat.className}>
             {" "}
-            <Typewriter
-              words={[
-                "Front-End Developer!",
-                "Web Developer!",
-                "NextJS Developer!",
-              ]}
-              loop={Infinity}
-              cursorStyle={"_"}
-              typeSpeed={80}
-              deleteSpeed={50}
-              delaySpeed={1500}
-            />
+                Front-End Developer!
           </p>
           <h3 className={`${styles.detailText} ${inter.className}`}>
             Passionate about crafting interactive and user-friendly web
